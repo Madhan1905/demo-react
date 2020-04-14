@@ -1,9 +1,11 @@
 language: node_js
 node_js:
-- 12.16.2
+  - 12.16.2
 cache: npm
 
-install:
-  - npm ci
-script:
-  - npm start
+deploy:
+  - provider: heroku
+    skip_cleanup: true
+    api-key:
+      secure: $HEROKU_API_KEY
+    app: react-editor-app
