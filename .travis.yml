@@ -9,6 +9,6 @@ script:
 deploy:
   - provider: heroku
     skip_cleanup: true
-    api-key:
+    api_key:
       secure: 98a41c94-08b6-452e-9d0f-ad6297b78ef8
     app: react-editor-app
