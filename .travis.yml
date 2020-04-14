@@ -3,6 +3,9 @@ node_js:
   - 12.16.2
 cache: npm
 
+script: 
+  - echo "skipping tests"
+
 deploy:
   - provider: heroku
     skip_cleanup: true
