@@ -10,3 +10,6 @@ deploy:
   - provider: heroku
     api_key: $HEROKU_API_KEY
     app: react-editor-app
+
+notifications:
+  slack: codetolearnworkspace:HOCdD1zlJ0ViIqE5Bt2Df7Nm
