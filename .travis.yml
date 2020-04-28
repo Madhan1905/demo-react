@@ -11,5 +11,10 @@ deploy:
     api_key: $HEROKU_API_KEY
     app: react-editor-app
 
+addons:
+  sonarcloud:
+    organization: sampl-organ
+    token: $Sonar-API
+
 notifications:
   slack: codetolearnworkspace:HOCdD1zlJ0ViIqE5Bt2Df7Nm
