@@ -14,8 +14,7 @@ deploy:
 addons:
   sonarcloud:
     organization: sample-organ
-    token: 
-      secure: $Sonar-API
+    token: $Sonar-API
 
 notifications:
   slack: codetolearnworkspace:HOCdD1zlJ0ViIqE5Bt2Df7Nm
